@@ -1,24 +1,54 @@
-'yearID','age'
-R^2:  0.433237568513
-MSE:  0.906204046653
-MAE:  0.77549576956
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'G_batting', 'HR_cum', 'hofID']
+R^2:  0.686582560158
+MSE:  0.585040394332
+MAE:  0.596859778626
 
-'yearID','age','G_batting','G_pitching'
-R^2:  0.493150532524
-MSE:  0.802807397418
-MAE:  0.713029828734
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'G_batting', 'HR_cum', 'hofID', 'nameNick']
+R^2:  0.690738503409
+MSE:  0.57728270644
+MAE:  0.593160290052
 
-'yearID','age','G_batting','G_pitching','ywc'
-R^2:  0.596674929072
-MSE:  0.638763664186
-MAE:  0.621770917478
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'G_batting', 'HR_cum', 'hofID', 'nameNick', 'weight']
+R^2:  0.69560183742
+MSE:  0.568204568194
+MAE:  0.587405476687
 
-'yearID','age','G_batting','G_pitching','ywc','R_cum'
-R^2:  0.631140441616
-MSE:  0.584792862516
-MAE:  0.585998485051
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'G_batting', 'HR_cum', 'hofID', 'nameNick', 'weight']
+R^2:  0.699167118351
+MSE:  0.561549439612
+MAE:  0.583222213501
 
-'yearID','age','G_batting','G_pitching','ywc','HR_cum'
-R^2:  0.6350297345
-MSE:  0.579932832168
-MAE:  0.58522604884
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight']
+R^2:  0.689825018858
+MSE:  0.57898786159
+MAE:  0.589684591109
+
+Features:  ['yearID', 'ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G']
+R^2:  0.705555253053
+MSE:  0.549625033469
+MAE:  0.571221779277
+
+Features:  ['yearID', 'log_ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G']
+R^2:  0.709152241444
+MSE:  0.542910718184
+MAE:  0.56452249203
+
+Features:  ['yearID', 'log_ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G', 'pSO']
+R^2:  0.739280444714
+MSE:  0.48667193348
+MAE:  0.535349512511
+
+Features:  ['yearID', 'log_ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G', 'pERA']
+R^2:  0.713502500748
+MSE:  0.534801413223
+MAE:  0.555510190857
+
+Features:  ['yearID', 'log_ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G', 'pERA_cum']
+R^2:  0.727255330384
+MSE:  0.509211415535
+MAE:  0.549184890042
+
+Features:  ['yearID', 'log_ywc', 'age', 'teamID', 'Batting_ratio', 'HR_cum', 'hofID', 'nameNick', 'weight', 'G', 'pERA_cum', 'pSO_cum']
+R^2:  0.745375879591
+MSE:  0.475380541681
+MAE:  0.528874950021
